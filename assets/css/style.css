@@ -6,11 +6,25 @@ body {
 }
 
 
+/*------------------------------------------ Margins/Padding  */
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+
+
 /*--------------------------------------Viewport  */
 
 @media (min-width: 768px ) {
     .nav-center {
         justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .hidden-sm {
+          display:none;
     }
 }
 
@@ -66,9 +80,25 @@ body {
     
 }
 
-/*------------------------------------------Random Dishes  */
+/*------------------------------------------ Dishes  */
 
-.dish-of-day {
-    display: inline-block;
+.meal-content {
+     
+}
+
+.dish {
+    display: table-cell;
+    align-items: center;
     
+}
+
+.card {
+    width: 33%;
+}
+
+.select-food {
+    text-align: center;
+    position: relative;
+    width: auto;
+    top: 35%;
 }
