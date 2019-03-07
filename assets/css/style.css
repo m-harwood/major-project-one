@@ -1,0 +1,74 @@
+/*---------------------------------------Body     */
+
+body {
+    background-color: #99ccff; /*  Theme blue  */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*--------------------------------------Viewport  */
+
+@media (min-width: 768px ) {
+    .nav-center {
+        justify-content: center;
+    }
+}
+
+/*---------------------------------------Nav Bar Button    */
+
+.btn-nav {
+    background-color: #99ccff; /*  Theme blue  */
+    border: none;
+    padding: 12px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-nav:hover {
+    background-color: #1a8cff; /*  Darker blue for highlight */
+}
+
+/*---------------------------------------Nav Bar  */
+
+.page-link {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #99ccff;
+    font-style: italic;
+    border: dashed 1px;
+    
+}
+
+.active {
+    color: #fafafa;
+}
+
+/*------------------------------------------Cover  */
+
+#cover {
+    background-image: url("https://c.pxhere.com/photos/6a/ff/photo-1410520.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+}
+    
+.brand-name {
+    font-family: 'Srisakdi', cursive;
+    font-size: x-large;
+    color: #99ccff;
+    position: relative;
+    margin-left: 50%;
+    
+}
+
+/*------------------------------------------Random Dishes  */
+
+.dish-of-day {
+    display: inline-block;
+    
+}

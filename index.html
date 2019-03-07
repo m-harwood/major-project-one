@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!---------------------------Viewport--------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!------------------- Bootstrap & Fontawesome CSS --------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Project One</title>
+</head>
+
+<body>
+
+    <!------------------------Navbar/Header-------------------------------->
+
+    <div class="jumbotron" id="cover">
+        <nav class="nav navbar-default nav-center navbar-fixed-top navbar-expand-md">
+            <button class="navbar-toggler btn-nav" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-hamburger fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pagination ">
+                    <li class="nav-link page-item "><a class="page-link" href="#"><span class="sr-only">(current)</span>About</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#">Starter</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#">Mains</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#">Dessert</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#">Social</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img src="assets/images/small-logo.png" class="rounded mx-auto d-block" alt="logo"></img>
+    </div>
+
+    <!------------------------Random Dishes-------------------------------->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <p>This is the about section</p>
+            </div>
+            <div class="col-8">
+                <div class="card dish-of-day">
+                    <img src="assets/images/starter/avocado-salad.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="">Avocado Salad</h5>
+                        <p class="card-text">This light yet satisfying dish is the perfect way to start a meal, easy on the eyes and just enough to ready you for the main.</p>
+                        <a href="#" class="btn btn-outline-info">Full Recipe</a>
+                    </div>
+                </div>
+                <div class="card dish-of-day">
+                    <img src="assets/images/main/burger-main.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="">Lickin' Chicken Burger</h5>
+                        <p class="card-text">This is one of my fav's, a juicy, freshly breaded chicken fillet on a sesame seed bun, topped with a sweet, spicy sauce that just asks for more.</p>
+                        <a href="#" class="btn btn-outline-info">Full Recipe</a>
+                    </div>
+                </div>
+                <div class="card dish-of-day">
+                    <img src="assets/images/dessert/raspberry-dessert.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="">Avocado Salad</h5>
+                        <p class="card-text">This light yet satisfying dish is the perfect way to start a meal, easy on the eyes and just enough to ready you for the main.</p>
+                        <a href="#" class="btn btn-outline-info">Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!------------------------Starter-------------------------------->
+
+        <div class="container-fluid">
+            <br>
+            <p>
+                <label for="select">Starter</label>
+                <select id="select">
+        <option value="">Choose...</option>
+        <optgroup label="Starter">
+          <option value="">Salad</option>
+          <option value="">Soup</option>
+          <option value="">Seafood</option>
+      </select>
+            </p>
+        </div>
+
+        <!------------------------Main-------------------------------->
+
+        <div class="container-fluid">
+            <br>
+            <p>
+                <label for="select">Main</label>
+                <select id="select">
+        <option value="">Choose...</option>
+        <optgroup label="Main">
+          <option value="">Chicken</option>
+          <option value="">Vegetable</option>
+          <option value="">Beef</option>
+          <option value="">Lamb</option>
+          <option value="">Pork</option>
+      </select>
+            </p>
+        </div>
+
+        <!------------------------Dessert-------------------------------->
+
+        <div class="container-fluid">
+            <br>
+            <p>
+                <label for="select">Dessert</label>
+                <select id="select">
+        <option value="">Choose...</option>
+        <optgroup label="Dessert">
+          <option value="">Chocolate</option>
+          <option value="">Fruit</option>
+          <option value="">Cake</option>
+      </select>
+            </p>
+        </div>
+
+        <!------------------------Footer-------------------------------->
+
+
+
+        <!--------------- jQuery, Popper.js & Bootstrap JS ---------------------->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
