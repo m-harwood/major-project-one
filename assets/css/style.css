@@ -131,6 +131,18 @@ button:focus {
 
 }
 
+#recipe-cover {
+    background-image: url("/assets/images/dessert/icecream-dessert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    
+}
+
 .brand-name {
     font-family: 'Srisakdi', cursive;
     font-size: x-large;
@@ -145,7 +157,6 @@ button:focus {
     background-repeat: no-repeat;
     background-position: right;
     background-attachment: fixed;
-    height: ;
     width: 100vw;
 
 }
@@ -158,7 +169,6 @@ button:focus {
 
 .card-img {
     width: 100%;
-    height: 100%;
 }
 
 
