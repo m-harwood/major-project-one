@@ -41,14 +41,16 @@
     <!------------------------Random Dishes-------------------------------->
 
     <div class="container-fluid">
-        <div class="container-fluid hidden-sm">
+        <div class="container-fluid hidden-md">
             <div class="row">
                 <div class="col-3">
                     <p>This is the about section</p>
                 </div>
                 <div class="card-deck col-9">
                     <div class="card col-sm-4 dish">
-                        <img src="assets/images/starter/avocado-salad-starter.jpg" class="card-img-top img-thumbnail" alt="...">
+                        <div class="card-header">
+                            <img src="assets/images/starter/avocado-salad-starter.jpg" class="card-img-top img-thumbnail" alt="...">
+                        </div>
                         <div class="card-body">
                             <h5 class="">Avocado Salad</h5>
                             <p class="card-text">This light yet satisfying dish is the perfect way to start a meal, easy on the eyes and just enough to ready you for the main.</p>
@@ -56,7 +58,9 @@
                         <div class="card-footer"><a href="#" class="btn btn-outline-info">Full Recipe</a></div>
                     </div>
                     <div class="card col-sm-4 dish">
-                        <img src="assets/images/main/burger-main.jpg" class="card-img-top img-thumbnail" alt="...">
+                        <div class="card-header">
+                            <img src="assets/images/main/burger-main.jpg" class="card-img-top img-thumbnail" alt="...">
+                        </div>
                         <div class="card-body">
                             <h5 class="">Lickin' Chicken Burger</h5>
                             <p class="card-text">This is one of my fav's, a juicy, freshly breaded chicken fillet on a sesame seed bun, topped with a sweet, spicy sauce that just asks for more.</p>
@@ -64,13 +68,30 @@
                         <div class="card-footer"><a href="#" class="btn btn-outline-info">Full Recipe</a></div>
                     </div>
                     <div class="card col-sm-4 dish">
-                        <img src="assets/images/dessert/raspberry-dessert.jpg" class="card-img-top img-thumbnail" alt="...">
+                        <div class="card-header">
+                            <img src="assets/images/dessert/raspberry-dessert.jpg" class="card-img-top img-thumbnail" alt="...">
+                        </div>
                         <div class="card-body">
                             <h5 class="">Raspberry Pancakes</h5>
                             <p class="card-text">A perfect way to finish of any meal, easy to make but always goes down a treat. You can make as many or as few as you want.</p>
                         </div>
                         <div class="card-footer"><a href="#" class="btn btn-outline-info">Full Recipe</a></div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid show-md">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-header">
+                        <h2 class="text-center"><i>Random Recipe</i></h2>
+                    </div>
+                    <img src="assets/images/main/burger-main.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body">
+                        <h5 class="text-center text-muted">Lickin' Chicken Burger</h5>
+                        <p class="card-text text-center">This is one of my fav's, a juicy, freshly breaded chicken fillet on a sesame seed bun, topped with a sweet, spicy sauce that just asks for more.</p>
+                    </div>
+                    <div class="card-footer text-center"><a href="#" class="btn btn-outline-info">Full Recipe</a></div>
                 </div>
             </div>
         </div>
@@ -83,10 +104,9 @@
             <div class="row no-gutters">
                 <div class="col-3">
                     <p class="select-food mx-auto">
-                        <label for="select">Starter</label>
-                        <select id="select">
-                        <option value="">Choose...</option>
-                        <optgroup label="Starter">
+                        <label for="starter"></label>
+                        <select id="starter">
+                        <option value="">Starter...</option>
                         <option value="" active>Salad</option>
                         <option value="">Soup</option>
                         <option value="">Seafood</option>
@@ -97,7 +117,7 @@
                     <div class="card mb-3 dish" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="/assets/images/starter/garlic-chive-starter.jpg" class="card-img img-thumbnail" alt="...">
+                                <img src="/assets/images/starter/garlic-chive-starter.jpg" class="card-img img-thumbnail img-md" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -120,10 +140,9 @@
                 <div class="col-3">
                     <br>
                     <p class="select-food mx-auto">
-                        <label for="select">Main</label>
-                        <select id="select">
-                        <option value="">Choose...</option>
-                        <optgroup label="Main">
+                        <label for="main"></label>
+                        <select id="main">
+                        <option value="">Main...</option>
                         <option value="">Chicken</option>
                         <option value="">Vegetable</option>
                         <option value="">Beef</option>
@@ -136,7 +155,7 @@
                     <div class="card mb-3 dish" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="/assets/images/main/summer-bbq-main.jpg" class="card-img img-thumbnail" alt="...">
+                                <img src="/assets/images/main/summer-bbq-main.jpg" class="card-img img-thumbnail img-md" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -160,10 +179,9 @@
                 <div class="col-3">
                     <br>
                     <p class="select-food mx-auto">
-                        <label for="select">Dessert</label>
-                        <select id="select">
-                        <option value="">Choose...</option>
-                        <optgroup label="Dessert">
+                        <label for="Dessert"></label>
+                        <select id="Dessert">
+                        <option value="">Dessert...</option>
                         <option value="">Chocolate</option>
                         <option value="">Fruit</option>
                         <option value="">Cake</option>
@@ -174,7 +192,7 @@
                     <div class="card mb-3 dish" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                <img src="/assets/images/dessert/fruit-tube-dessert.jpg" class="card-img img-thumbnail" alt="...">
+                                <img src="/assets/images/dessert/fruit-tube-dessert.jpg" class="card-img img-thumbnail img-md" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">

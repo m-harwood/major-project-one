@@ -6,11 +6,15 @@ body {
 }
 
 
-/*------------------------------------------ Margins/Padding  */
+/*------------------------------------------ Sizing/Alignment  */
 
 .no-padding {
     padding: 0;
     margin: 0;
+}
+
+.center {
+    justify-content:center;
 }
 
 
@@ -22,13 +26,25 @@ body {
     }
 }
 
-@media (max-width: 576px) {
-    .hidden-sm {
+@media (max-width: 768px) {
+    .hidden-md {
           display:none;
     }
 }
 
-/*---------------------------------------Nav Bar Button    */
+@media (min-width: 768px) {
+    .show-md {
+        display: none;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-md {
+        width: 50%;
+    }
+}
+/*---------------------------------------Navbar Button    */
 
 .btn-nav {
     background-color: #99ccff; /*  Theme blue  */
@@ -36,12 +52,24 @@ body {
     padding: 12px 12px;
     font-size: 16px;
     cursor: pointer;
+    transition: all .5s ease-in-out;
 }
 
 .btn-nav:hover {
     background-color: #1a8cff; /*  Darker blue for highlight */
 }
 
+
+/*---------------------------------------Transitions    */
+
+.btn-outline-info {
+    transition: all .5s ease-in-out;
+}
+
+.select-food {
+    font-family: "exo", sans-serif;
+    transition: all .5s ease-in-out;
+}
 /*---------------------------------------Nav Bar  */
 
 .page-link {
@@ -51,6 +79,7 @@ body {
     background-color: #99ccff;
     font-style: italic;
     border: dashed 1px;
+    transition: all .5s ease-in-out;
     
 }
 
