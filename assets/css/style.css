@@ -1,9 +1,9 @@
-/*---------------------------------------Full Site     */
+/*-----------------------------------------------Full Site     */
 
 html {}
 
 body {
-    background-color: #99ccff;
+    background-color: rgba(153, 204, 255, 0.5);
     /*  Theme blue  */
     font-family: 'Roboto', sans-serif;
 }
@@ -24,7 +24,12 @@ body {
     height: 40px;
 }
 
-/*--------------------------------------Viewport  */
+.section-padding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*------------------------------------------------- Viewport  */
 
 @media (min-width: 768px) {
     .nav-center {
@@ -49,7 +54,7 @@ body {
     .img-md {}
 }
 
-/*---------------------------------------Navbar Button    */
+/*-----------------------------------------------------Buttons/Colours    */
 
 .btn-nav {
     background-color: #99ccff;
@@ -66,8 +71,13 @@ body {
     /*  Darker blue for highlight */
 }
 
+.btn-theme {
+    background-color: rgba(153, 204, 255, 0.5);
+    /*-----RGB Theme Blue */
+}
 
-/*---------------------------------------Transitions    */
+
+/*--------------------------------------------------Transitions    */
 
 .btn-outline-info {
     transition: all .5s ease-in-out;
@@ -78,7 +88,7 @@ body {
     transition: all .5s ease-in-out;
 }
 
-/*---------------------------------------Nav Bar  */
+/*------------------------------------------------------Nav Bar  */
 
 .page-link {
     text-align: center;
@@ -107,7 +117,7 @@ button:focus {
     outline: 1px dotted;
 }
 
-/*------------------------------------------Cover  */
+/*----------------------------------------------------------Cover Images */
 
 #cover {
     background-image: url("/assets/images/dessert/icecream-dessert.jpg");
@@ -135,12 +145,12 @@ button:focus {
     background-repeat: no-repeat;
     background-position: right;
     background-attachment: fixed;
-    height: 100vh;
+    height: ;
     width: 100vw;
 
 }
 
-/*------------------------------------------ Cards  */
+/*---------------------------------------------------------- Recipe Cards  */
 
 .card-body {
     text-align: center;
@@ -152,7 +162,7 @@ button:focus {
 }
 
 
-/*------------------------------------------ Dishes  */
+/*---------------------------------------------------------- Food Dishes  */
 
 .dish {
     display: table-cell;
@@ -169,4 +179,8 @@ button:focus {
     position: relative;
     width: auto;
     top: 35%;
+}
+
+.dropdown-border {
+    border: double 2px #99ccff;
 }
