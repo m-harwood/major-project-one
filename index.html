@@ -27,11 +27,11 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarToggler">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pagination ">
-                    <li class="nav-link page-item "><a class="page-link" href="#"><span class="sr-only">(current)</span>About</a></li>
-                    <li class="nav-link page-item"><a class="page-link" href="#">Starter</a></li>
-                    <li class="nav-link page-item"><a class="page-link" href="#">Mains</a></li>
-                    <li class="nav-link page-item"><a class="page-link" href="#">Dessert</a></li>
-                    <li class="nav-link page-item"><a class="page-link" href="#">Social</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="/index.html"><span class="sr-only">(current)</span>Home</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#starter">Starter</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#main">Mains</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#dessert">Dessert</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#social">Social</a></li>
                 </ul>
             </div>
         </nav>
@@ -105,19 +105,19 @@
 
         <!------------------------Starter-------------------------------->
 
-        <section class="section-padding">
+        <section class="section-padding" id="starter">
             <div class="container-fluid no-padding">
                 <div class="row no-gutters">
                     <div class="col-3 btn-group dropright dropdown-border">
-                            <button class="btn btn-theme btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select a starter
+                        <button class="btn btn-theme btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select a starter
                         </button>
-                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(3px, 185px, 0px);">
-                                <a class="dropdown-item" href="#">Salad</a>
-                                <a class="dropdown-item" href="#">Soup</a>
-                                <a class="dropdown-item" href="/tomato-starter.html">Bread</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Random</a>
-                            </div>
+                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(3px, 185px, 0px);">
+                            <a class="dropdown-item" href="#">Salad</a>
+                            <a class="dropdown-item" href="#">Soup</a>
+                            <a class="dropdown-item" href="/tomato-starter.html">Bread</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Random</a>
+                        </div>
                     </div>
                     <div class="col-9">
                         <div class="card mb-3 dish" style="max-width: 540px;">
@@ -150,7 +150,7 @@
         </section>
         <!------------------------Main-------------------------------->
 
-        <section class="section-padding">
+        <section class="section-padding" id="main">
             <div class="container-fluid no-padding">
                 <div class="row no-gutters">
                     <div class="col-3 btn-group dropright dropdown-border">
@@ -186,7 +186,7 @@
 
         <!------------------------Dessert-------------------------------->
 
-        <section class="section-padding">
+        <section class="section-padding" id="dessert">
             <div class="container-fluid no-padding">
                 <div class="row no-gutters">
                     <div class="col-3 btn-group dropright dropdown-border">
@@ -222,15 +222,41 @@
     </section>
     <!------------------------Footer-------------------------------->
 
-    <footer class="">
+    <footer class="" id="social">
         <div class="container-fluid no-gutters">
             <div class="row">
-                <div class="col-sm-8">T&C</div>
-                <div class="col-sm-4 text-center links">Social</div>
+                <div class="col-xs-12 col-sm-10">T&C</div>
+                <div class="col-xs-12 col-sm-2 text-center links">
+                    <a class="" href="#" target="_blank">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                    <a class="" href="#" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                    <a class="" href="#" target="_blank">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                    <a class="" href="#" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                </div>
             </div>
             <div class="row">
-                <div class="col-sm-8">Mentions</div>
-                <div class="col-sm-4 text-center links">Links</div>
+                <div class="col-xs-12 col-sm-10">Mentions</div>
+                <div class="col-xs-12 col-sm-2 text-center links">
+                    <a class="" href="#" target="_blank">
+                    <i class="fas fa-utensils fa-2x"></i>
+                </a>
+                    <a class="" href="#" target="_blank">
+                    <i class="fas fa-hamburger fa-2x"></i>
+                </a>
+                    <a class="" href="#" target="_blank">
+                    <i class="fas fa-cookie-bite fa-2x"></i>
+                </a>
+                    <a class="" href="#" target="_blank">
+                    <i class="fas fa-hotdog fa-2x"></i>
+                </a>
+                </div>
             </div>
         </div>
     </footer>
