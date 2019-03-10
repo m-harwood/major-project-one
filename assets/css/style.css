@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans:300');
+
 /*-----------------------------------------------Full Site     */
 
-html {}
+html {
+    font-family: 'Roboto', sans-serif;
+}
 
 body {
     background-color: rgba(153, 204, 255, 0.5);
     /*  Theme blue  */
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 #social {
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
-/*------------------------------------------ Sizing/Alignment  */
+/*------------------------------------------ Sizing/Alignment/Colour  */
 
 .no-padding {
     padding: 0;
@@ -47,6 +52,17 @@ body {
     margin-bottom: 5%;
     color: #99ccff;
     text-align: center;
+    font-size: large;
+}
+
+.about-header {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: #0059b3;
+    text-decoration: underline;
+}
+
+.about-text {
     font-size: large;
 }
 
@@ -140,7 +156,7 @@ button:focus {
     outline: 1px dotted;
 }
 
-/*----------------------------------------------------------Cover Images */
+/*----------------------------------------------------------Images */
 
 #cover {
     background-image: url("/assets/images/dessert/icecream-dessert.jpg");
@@ -160,7 +176,6 @@ button:focus {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    height: 50vh;
     width: 100vw;
     margin-bottom: 0px;
     
@@ -181,7 +196,13 @@ button:focus {
     background-position: right;
     background-attachment: fixed;
     width: 100vw;
+}
 
+.wrapper-img {
+    height: 10rem;
+    width: 20rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 /*---------------------------------------------------------- Recipe Cards  */

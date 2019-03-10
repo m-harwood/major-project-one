@@ -33,10 +33,39 @@
                     <li class="nav-link page-item"><a class="page-link" href="#main">Mains</a></li>
                     <li class="nav-link page-item"><a class="page-link" href="#dessert">Dessert</a></li>
                     <li class="nav-link page-item"><a class="page-link" href="#contact">Contact</a></li>
+                    <li class="nav-link page-item"><a class="page-link" href="#" data-toggle="modal" data-target="#signinmodal">Sign In</a>
+                        <div class="modal fade" id="signinmodal" tabindex="-1" role="dialog" aria-labelledby="signinmodal" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="signinmodal">Sign In</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="email">Email address</label>
+                                                <input type="email" class="form-control" id="emailsignin" aria-describedby="emailHelp" placeholder="Enter email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="passwordinput">Password</label>
+                                                <input type="password" class="form-control" id="passwordinput" placeholder="Password">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
-        <img src="assets/images/small-logo.png" class="rounded mx-auto d-block" alt="logo"></img>
+        <a href="/index.html"><img src="assets/images/small-logo.png" class="rounded mx-auto d-block" alt="logo"></img></a>
     </div>
 
     <!------------------------Random Dishes-------------------------------->
@@ -46,38 +75,42 @@
             <div class="container-fluid hidden-md">
                 <div class="row">
                     <div class="col-3 border border-info rounded">
-                        <p>This is the about section</p>
+                        <h1 class="text-center about-header">About</h1>
+                        <p class="about-text">I came up with this site after constantly having to think of meals to do, but not being able to come up with a different variety.<br>
+                        I really wanted to make a mix but had to already know what meal I wanted to do, so I thought why not be able to search for a meal by ingredient rather then having to know the recipe I wanted.<br>
+                        
+                        </p>
                     </div>
                     <div class="card-deck col-9">
                         <div class="card col-sm-4 dish">
                             <div class="card-header">
-                                <img src="assets/images/starter/avocado-salad-starter.jpg" class="card-img-top img-thumbnail" alt="...">
+                                <img src="assets/images/starter/avocado-salad-starter.jpg" class="card-img-top wrapper-img img-thumbnail" alt="Avocado">
                             </div>
                             <div class="card-body">
-                                <h5 class="">Avocado Salad</h5>
+                                <h5 class="text-muted">Avocado Salad</h5>
                                 <p class="card-text">This light yet satisfying dish is the perfect way to start a meal, easy on the eyes and just enough to ready you for the main.</p>
                             </div>
                             <div class="card-footer"><a href="/avocado-starter.html" class="btn btn-outline-info">Full Recipe</a></div>
                         </div>
                         <div class="card col-sm-4 dish">
                             <div class="card-header">
-                                <img src="assets/images/main/burger-main.jpg" class="card-img-top img-thumbnail" alt="...">
+                                <img src="assets/images/main/burger-main.jpg" class="card-img-top wrapper-img img-thumbnail" alt="Burger">
                             </div>
                             <div class="card-body">
-                                <h5 class="">Lickin' Chicken Burger</h5>
+                                <h5 class="text-muted">Lickin' Chicken Burger</h5>
                                 <p class="card-text">This is one of my fav's, a juicy, freshly breaded chicken fillet on a sesame seed bun, topped with a sweet, spicy sauce that just asks for more.</p>
                             </div>
                             <div class="card-footer"><a href="/burger-main.html" class="btn btn-outline-info">Full Recipe</a></div>
                         </div>
                         <div class="card col-sm-4 dish">
                             <div class="card-header">
-                                <img src="assets/images/dessert/raspberry-dessert.jpg" class="card-img-top img-thumbnail" alt="...">
+                                <img src="assets/images/dessert/raspberry-dessert.jpg" class="card-img-top wrapper-img img-thumbnail" alt="Raspberry">
                             </div>
                             <div class="card-body">
-                                <h5 class="">Raspberry Pancakes</h5>
+                                <h5 class="text-muted">Raspberry Pancakes</h5>
                                 <p class="card-text">A perfect way to finish of any meal, easy to make but always goes down a treat. You can make as many or as few as you want.</p>
                             </div>
-                            <div class="card-footer"><a href="#" class="btn btn-outline-info">Full Recipe</a></div>
+                            <div class="card-footer"><a href="/raspberry-dessert.html" class="btn btn-outline-info">Full Recipe</a></div>
                         </div>
                     </div>
                 </div>
@@ -91,7 +124,7 @@
                         <img src="assets/images/main/burger-main.jpg" class="card-img-top img-thumbnail" alt="...">
                         <div class="card-body">
                             <h5 class="text-center text-muted">Lickin' Chicken Burger</h5>
-                            <p class="card-text text-center">This is one of my fav's, a juicy, freshly breaded chicken fillet on a sesame seed bun, topped with a sweet, spicy sauce that just asks for more.</p>
+                            <p class="card-text text-center">This is one of my fav's, a juicy, fresh breaded chicken fillet on a sesame seed bun, topped with a sweet, spicy sauce that just asks for more.</p>
                             <p class="card-text "><u>Ingredients</u>
                                 <ul class="list-group list-group-horizontal-md ">
                                     <li class="list-group-item ">Chicken breast fillets</li>
@@ -143,7 +176,7 @@
                                 <div class="col-xl-8">
                                     <div class="card-body">
                                         <h4 class="card-title text-muted"><u>Tomato & Garlic Chive Bread</u></h4>
-                                        <p class="card-text">This dish is a perfect one to start a dinner party or even just for nibbles at a gathering, the tomato is tasty and the garlic is an undertone as to no overpower the rest of the dish.</p>
+                                        <p class="card-text">This dish is a perfect one to start a dinner party or even just for nibbles at a gathering, the tomato is tasty and the garlic is an undertone as to not overpower the rest of the dish.</p>
                                         <p class="car-text"><u>Ingredients</u>
                                             <ul class="list-group list-group-horizontal-xl">
                                                 <li class="list-group-item">4 fresh tomatoes, chopped</li>
@@ -189,7 +222,7 @@
                                 <div class="col-xl-8">
                                     <div class="card-body">
                                         <h4 class="card-title text-muted"><u>Summer BBQ</u></h4>
-                                        <p class="card-text ">When the suns out, the funs out as well, this is an easy to make meal that looks high effort when it is served that is sure to please all.</p>
+                                        <p class="card-text ">When the suns out, the funs out as well, this is an easy to make meal that looks high effort when it is served, it is sure to please all.</p>
                                         <p class="card-text "><u>Ingredients</u>
                                             <ul class="list-group list-group-horizontal-xl ">
                                                 <li class="list-group-item ">8 mushrooms, chopped</li>
@@ -222,7 +255,7 @@
                         <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(3px, 185px, 0px);">
                             <a class="dropdown-item disabled" href="#">Chocolate</a>
                             <a class="dropdown-item" href="/fruit-tube-dessert.html">Fruit</a>
-                            <a class="dropdown-item disabled" href="#">Ice-cream</a>
+                            <a class="dropdown-item" href="/raspberry-dessert.html">Sweet</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item disabled" href="#">Random</a>
                         </div>
@@ -257,11 +290,14 @@
                 </div>
             </div>
         </section>
+
+        <!------------------------Contact-------------------------------->
+
         <section class="section-padding">
             <div class="container">
                 <div class="row center">
                     <div class="col-12">
-                        <h1 class="contact-header">Contact</h1>
+                        <h1 class="contact-header">Sign Up</h1>
                         <form id="contact">
                             <div class="form-group contact-form">
                                 <label for="name">Name</label>
@@ -272,58 +308,74 @@
                                 <input type="email" class="form-control" id="email" placeholder="Email" required>
                             </div>
                             <div class="form-group contact-form">
-                                <label for="message">Message</label>
-                                <textarea type="text" class="form-control" id="message" placeholder="Message" rows="8" required></textarea>
-                            </div>
-                            <button type="submit contact-form" class="btn btn-info">Send</button>
+                                <label for="inputPassword6">Password</label>
+                                <input type="password" id="inputPassword6" class="form-control" placeholder="Must be 8-20 characters long." aria-describedby="passwordHelpInline">
+                                <div class="form-group contact-form">
+                                    <label for="inputPassword6">Enter Password Again</label>
+                                    <input type="password" id="inputPassword6" class="form-control" placeholder="Must be 8-20 characters long." aria-describedby="passwordHelpInline">
+                                </div>
+                                <button type="btn contact-form" class="btn btn-info btn-lg btn-block" type="POST">Sign Up</button>
                         </form>
+                        <button type="btn contact-form" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#finishsubmit">For any recipes or ideas click here</button>
+                        <div class="modal fade" id="finishsubmit" tabindex="-1" role="dialog" aria-labelledby="finishsubmit" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modaltitle">Submit a recipe or idea</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="recipenameinput">Name</label>
+                                                <input type="text" class="form-control" id="recipenameinput" placeholder="Enter Your Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="recipeemail">Email address</label>
+                                                <input type="email" class="form-control" id="recipeemail" placeholder="Enter Your Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="recipeideaarea">Enter text</label>
+                                                <textarea class="form-control" id="recipeidea" rows="8"></textarea>
+                                            </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="btn contact-form" class="btn btn-info">Send</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
     </section>
-
-    <!------------------------Contact-------------------------------->
-
 
     <!------------------------Footer-------------------------------->
 
     <footer class="" id="social">
-        <div class="container-fluid no-gutters">
-            <div class="row center-text">
-                <div class="col-xs-12 col-sm-10">
+        <div class="container-fluid no-gutters text-center">
+            <div class="row">
+                <div class="col">
                     <a href="/tandc.html" class="" target="_blank">T & C<br>Privacy Policy</a>
                 </div>
-                <div class="col-xs-12 col-sm-2 links">
-                    <a class="" href="#" target="_blank">
+                <br>
+                <div class="col links">
+                    <a class="" href="https://www.facebook.com/" target="_blank">
                     <i class="fab fa-facebook fa-2x"></i>
                 </a>
-                    <a class="" href="#" target="_blank">
+                    <a class="" href="https://www.instagram.com/" target="_blank">
                     <i class="fab fa-instagram fa-2x"></i>
                 </a>
-                    <a class="" href="#" target="_blank">
+                    <a class="" href="https://twitter.com/" target="_blank">
                     <i class="fab fa-twitter fa-2x"></i>
                 </a>
-                    <a class="" href="#" target="_blank">
+                    <a class="" href="https://www.linkedin.com/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                </div>
-            </div>
-            <br>
-            <div class="row center-text">
-                <div class="col-xs-12 col-sm-10">Mentions</div>
-                <div class="col-xs-12 col-sm-2 text-center links">
-                    <a class="" href="#" target="_blank">
-                    <i class="fas fa-utensils fa-2x"></i>
-                </a>
-                    <a class="" href="#" target="_blank">
-                    <i class="fas fa-hamburger fa-2x"></i>
-                </a>
-                    <a class="" href="#" target="_blank">
-                    <i class="fas fa-cookie-bite fa-2x"></i>
-                </a>
-                    <a class="" href="#" target="_blank">
-                    <i class="fas fa-hotdog fa-2x"></i>
                 </a>
                 </div>
             </div>
