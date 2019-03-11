@@ -14,10 +14,10 @@ went through a book or other site as they are generally structured in a way that
 I think this site would be very used as users now want to have variety and speed with little thinking on there end.
 
 <ul>
-<li><b>User 1:</b> I want a quick meal using some chicken and a pepper I have in my fridge, I input chicken and pepper in the main and have a recipe appear that uses these ingredients with little thought on my part.</li>
-<li><b>User 2:</b> I am having guests around and would like a starter, main and dessert but dont know what will go well together, I input seafood in starter as that is one ingredient I am using and select option "similar" for mains and dessert, 
+<li><b>User 1:</b> I want a quick meal using some chicken and a pepper I have in my fridge, I input chicken in the main and have a recipe appear that uses these ingredients with little thought on my part.</li>
+<li><b>User 2:</b> I am having guests around and would like a starter, main and dessert but dont know what will go well together, I input salad in starter as that is one ingredient I am using and select option "similar" for mains and dessert, 
 then I am offered a main dish of fish for example and a dessert like macarons which if I havent got the ingredients for I can use as a basis for selecting a new recipe.</li>
-<li><b>User 3:</b> I have a dish I do alot but would like a different take on it so I input the specific recipe and can click on option "similar" but only for mains which shows me my dish but using a different main ingredient.</li>
+<li><b>User 3:</b> I have a dish I do alot but would like a different take on it so I input the specific ingredient and click on option "similar" which shows me my dish but using a different main ingredient.</li>
 </ul>
 
 <h4>Wireframes/Designs</h4>
@@ -46,42 +46,53 @@ Interactive diagram/picture with selectable food items to allow for a more visua
 
 <h2>Testing</h2>
 <br>
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+My first test was to input the code on <a href="https://validator.w3.org">https://validator.w3.org<a> and tidy up any mistakes I made, I did thiss 4 times until all was rectified.
+Next I did the same for my CSS on <a href="https://jigsaw.w3.org/css-validator/validator">https://jigsaw.w3.org/css-validator/validator<a> and got an all clear on my code.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+My next step was to make sure I could complete my UX user tasks as I set them out so I started at user one and could easily find out what I needed to know.
+User two was next so I went to the starter section and clicked on salad, then I was taked to a recipe page were I clicked on <b>Show Similar</b> and was taken to a main then from ther to a dessert so that was a success.
+User three was trickier as I had to modify my site to allow completion of the task but could accomplish it.
 
-<h2>Contact form:</h2>
-Go to the <i>"Contact Us"<i> page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I tested out the site on various resolutions and mobile devices to make sure it was working well, there were a few problems and overlaps but I resolved these and the site was working well.
+The signup / signin forms will state <b>"Please fill in this field"</b> if left blank and will not submit. If all fields are valid it will send the data and reload the page and place the user at the top.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Only the T & C privacy policy will open in a new tab using the <b>target="_blank"</b> as this is not part of the flow of the site.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+All the navbar links take you to the corresponding page/ section of page and also the main logo links back to index.html.
+
+The site was tested on multiple browsers and systems such as <ul>
+<li>Chrome</li>
+<li>Internet Explorer</li>
+<li>Firefox</li>
+<li>Safari</li>
+<li>Iphone 8</li>
+<li>Samsung Galaxy S8+</li>
+<li>LG G6</li>
+</ul>
+This was to make sure it worked across multiple devices and systems.
+The background image was clipping on mobile and the logo was further down then I wanted so I found out the <b>height="50vh"</b> was not the culprit so removed this in style.css and the problem was fixed.
 
 <h2>Deployment</h2>
 <br>
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted on GitHub Pages, using the master branch to deploy. 
+The site will update automatically upon new commits to the master branch. 
+In order for the site to deploy correctly, the landing page must be named index.html.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+You can clone this repository directly into the editor of your choice by pasting git clone https://github.com/m-harwood/pick-a-dish-first-project.git into your terminal to run locally.
+To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 <h2>Credits</h2>
 <br>
 <h4>Content</h4>
 
-The text for section Y was copied from the Wikipedia article Z
+All content across this site is written by me.
+
 <h4>Media</h4>
 
 The photos used in this site were obtained from https://pxhere.com and are CC0 Public Domain free to use.
+They are resized and compressed to allow faster load times.
+
 <h4>Acknowledgements</h4>
 
 I received inspiration for this project from the many food websites and cooking shows, also sometimes from my own lack of imagination with coming up with meal ideas for a family.
