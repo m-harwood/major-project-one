@@ -9,7 +9,12 @@ html {
 body {
     background-color: rgba(153, 204, 255, 0.5);
     /*  Theme blue  */
-    
+    margin: 0;
+}
+
+i:hover {
+    color: rgba(0, 13, 26,0.9);
+    font-size: 2.5em;
 }
 
 #social {
@@ -44,6 +49,7 @@ body {
     border: solid 1px #99ccff;
     border-radius: 20px;
     text-align: center;
+    background-color: #fff;
 }
 
 .contact-form {
@@ -52,6 +58,10 @@ body {
     color: #99ccff;
     text-align: center;
     font-size: large;
+}
+
+.form-border {
+    border-radius: 20px;
 }
 
 .about-header {
@@ -111,13 +121,27 @@ body {
 
 .btn-theme {
     background-color: rgba(153, 204, 255, 0.5);
+    transition: all 0.5s ease-in-out;
     /*-----RGB Theme Blue */
+}
+
+.btn-theme:hover {
+    color: rgba(0, 13, 26,0.9);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    border-radius: 500px;
+    
 }
 
 .button-form {
     margin-top: 5%;
     margin-bottom: 5%;
     color: #99ccff;
+}
+
+.btn-outline-info:hover {
+    color: rgba(0, 13, 26,0.9);
+    font-size: 1.5em;
 }
 
 /*--------------------------------------------------Transitions    */
@@ -239,11 +263,6 @@ button:focus {
     width: auto;
     top: 35%;
 }
-
-.dropdown-border {
-    border: double 2px #99ccff;
-}
-
 
 /*---------------------------------------------------------- Footer  */
 
