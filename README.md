@@ -96,4 +96,4 @@ They are resized and compressed to allow faster load times.
 
 <h4>Acknowledgements</h4>
 
-I received inspiration for this project from the many food websites and cooking shows, also sometimes from my own lack of imagination with coming up with meal ideas for a family.
+I received inspiration for this project from the many food websites and cooking shows, also sometimes from my own lack of imagination with coming up with meal ideas for a family.# project-one
