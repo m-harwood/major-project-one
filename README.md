@@ -6,6 +6,7 @@ My project is a static frontpage website aimed at people who have the ingredient
 So for example if you have some lettuce in the fridge and some chicken in the freezer and you have no idea what to make then you can input salad as a starter then chicken as a main and a random recipe will show that you can use or
 define more of the ingredients to make a more narrowed search.
 Also it will have recipes of the day that will alternate daily.
+A link to visit the site, hosted on gitpages is <a href="https://m-harwood.github.io/major-project-one/">https://m-harwood.github.io/major-project-one/</a>
 
 <h2>UX</h2>
 <br>
