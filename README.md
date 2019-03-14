@@ -21,8 +21,8 @@ then I am offered a main dish of fish for example and a dessert like macarons wh
 </ul>
 
 <h4>Wireframes/Designs</h4>
-![Image of wireframe 1](pickadish-stream-one-project/wireframes/first-draft.jpg)
-![Image of wireframe 2](pickadish-stream-one-project/wireframes/second-draft.jpg)
+![Image of wireframe 1](/wireframes/first-draft.jpg)
+![Image of wireframe 2](/wireframes/second-draft.jpg)
 
 <h2>Features</h2>
 <br>
