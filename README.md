@@ -21,7 +21,8 @@ then I am offered a main dish of fish for example and a dessert like macarons wh
 </ul>
 
 <h4>Wireframes/Designs</h4>
-They can be found in the folder /wireframes.
+![Image of wireframe 1](pickadish-stream-one-project/wireframes/first-draft.jpg)
+![Image of wireframe 2](pickadish-stream-one-project/wireframes/second-draft.jpg)
 
 <h2>Features</h2>
 <br>
