@@ -206,7 +206,7 @@ button:focus {
 /*----------------------------------------------------------Images */
 
 #cover {
-    background-image: url("assets/images/dessert/icecream-dessert.jpg");
+    background-image: url("https://github.com/m-harwood/major-project-one/blob/master/assets/images/dessert/icecream-dessert.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -218,7 +218,7 @@ button:focus {
 }
 
 #recipe-cover {
-    background-image: url("assets/images/dessert/icecream-dessert.jpg");
+    background-image: url("https://github.com/m-harwood/major-project-one/blob/master/assets/images/dessert/icecream-dessert.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -237,7 +237,7 @@ button:focus {
 }
 
 .background-img-main {
-    background-image: url("assets/images/cover-2.jpg");
+    background-image: url("https://github.com/m-harwood/major-project-one/blob/master/assets/images/cover-2.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
